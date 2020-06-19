@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            .interact-message {
+                width: 500px;
+                margin: auto;
+                padding-top: 20px;
+                color: #666;
+                font-size: 14px;
+            }
+            .interact-message .error {
+                background: #fcc;
+                border: 1px solid #f88;
+                border-radius: 2px;
+                color: #800;
+                padding: 5px 10px;
+            }
+            .teacher .message {
+                border: 1px solid #ccc;
+                padding: 5px 10px;
+                white-space: pre-wrap;
+            }
+
+            .student {
+                margin-top: 20px;
+                position: relative;
+            }
+            .student .header {
+                position: absolute;
+                padding: 0;
+                margin: 0;
+                left: 10px;
+                top: 5px;
+            }
+            .student textarea {
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+                padding: 25px 10px 5px;
+                height: 200px;
+                width: 100%;
+            }
+            .student button {
+                margin-top: 5px;
+                float: right;
+                background: #9fce29;
+                border-radius: 2px;
+                color: #fff;
+                border: 0;
+                padding: 4px 5px;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="app"></div>
+        <script src="webpack/interact-message-tab.js"></script>
+    </body>
+</html>

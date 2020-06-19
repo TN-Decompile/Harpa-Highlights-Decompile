@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="115px" height="118px" viewBox="0 0 115 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>EF64039D-59FE-4D2D-B5BD-F8AB57BBB734</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <filter x="-3.5%" y="-5.7%" width="107.0%" height="111.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="16" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.295346467 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Session-Active:-Students" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="messages---page-student-see-during-an-active-session" transform="translate(-714.000000, -460.000000)">
+            <g id="interactions" filter="url(#filter-1)" transform="translate(89.000000, 197.000000)">
+                <g id="browser">
+                    <g id="hapara-logo-dark" transform="translate(655.000000, 292.000000)">
+                        <path d="M9.96189085,39.8201566 L22.6156867,4.4855285 L7.10827763,0.23828125 L0.00418669728,37.1226161 C3.41888901,37.7713917 6.743765,38.6762628 9.96189085,39.8201566" id="Fill-7" fill="#2D2D47"></path>
+                        <path d="M26.5810635,48.4551753 L43.5439194,24.8549796 L30.1376653,16.3512919 L17.0724909,42.8105654 C20.3973669,44.4390708 23.5803433,46.3223585 26.5810635,48.4551753" id="Fill-8" fill="#98C53E"></path>
+                        <path d="M56.9475698,47.8510524 L47.5743877,37.5507555 L32.8754156,53.5376883 C35.481681,55.8977079 37.9082937,58.4547241 40.1305189,61.1942905 L56.9475698,47.8510524" id="Fill-9" fill="#00B5D2"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

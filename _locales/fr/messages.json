@@ -1,0 +1,358 @@
+{
+    "diagnosticsTestValidUserNoValidUser": {
+        "message": "Nous avons trouv\u00e9 aucun utilisateur valide $reason$",
+        "description": "Message indicating no valid users were found",
+        "placeholders": {
+            "reason": {
+                "content": "$1",
+                "example": "(Teacher logged in)"
+            }
+        }
+    },
+    "messagePopupReplyButton": {
+        "message": "R\u00e9pondre au message",
+        "description": "Text label for the reply button on a pop-up message"
+    },
+    "messageTabSendingText": {
+        "message": "En cours d'envoi ...",
+        "description": "Text to display while sending the reply"
+    },
+    "diagnosticsTestCommunicationDescription": {
+        "message": "V\u00e9rifiez que la messagerie fonctionne entre cet ordinateur et Hapara",
+        "description": "Communication test description"
+    },
+    "diagnosticsTestValidUserTimeout": {
+        "message": "Temps \u00e9puis\u00e9, en attente d'informations utilisateurs valides de l'extension",
+        "description": "Message for when testing valid users times out"
+    },
+    "messageTabReplyTitle": {
+        "message": "R\u00e9pondre \u00e0 $teacherName$",
+        "placeholders": {
+            "teacherName": {
+                "content": "$1",
+                "example": "Miss Fitz"
+            }
+        },
+        "description": "Title of messages received from a teacher (on tabs)"
+    },
+    "diagnosticsTestExtensionUnknownResponse": {
+        "message": "R\u00e9ponse inconnue pour la v\u00e9rification du mise \u00e0 jour: $status$",
+        "placeholders": {
+            "status": {
+                "content": "$1",
+                "example": "new_status"
+            }
+        },
+        "description": "Message when chrome returns us an known extension status"
+    },
+    "diagnosticsSendAlso": {
+        "message": "Vous pouvez aussi",
+        "description": "Message displayed before additional options on successful diagnostics send to Hapara"
+    },
+    "diagnosticsTestExtensionDescription": {
+        "message": "V\u00e9rifiez que l'extension Hapara Highlights est install\u00e9e et \u00e0 jour",
+        "description": "Extension test description"
+    },
+    "diagnosticsMessageFailedSending": {
+        "message": "Erreur: Nous n'avons pas pus envoyer le diagnostique",
+        "description": "Message indicating diagnostics failed to send to Hapara"
+    },
+    "diagnosticsStateFailed": {
+        "message": "\u00c9chou\u00e9",
+        "description": "Used to indicate this test has failed"
+    },
+    "browserIconInactive": {
+        "message": "Hapara Highlights - Inactif",
+        "description": "Browser icon tooltip when no valid user is signed"
+    },
+    "browserIconActive": {
+        "message": "Hapara Highlights - Actif",
+        "description": "Browser icon tooltip when a valid user is signed"
+    },
+    "lockingNotificationDuration2Plus": {
+        "message": "$number$ secondes",
+        "placeholders": {
+            "number": {
+                "content": "$1",
+                "example": "4"
+            }
+        },
+        "description": "Countdown indicator for locking notifications (when seconds > 1)"
+    },
+    "lockingNotificationDuration1": {
+        "message": "$number$ seconde",
+        "placeholders": {
+            "number": {
+                "content": "$1",
+                "example": "1"
+            }
+        },
+        "description": "Countdown indicator for locking notifications (when seconds = 1)"
+    },
+    "diagnosticsMessageSending": {
+        "message": "Envoi du rapport ...",
+        "description": "Message indicating diagnostics report is being sent to Hapara"
+    },
+    "messagePopupTitle": {
+        "message": "Message de $teacherName$",
+        "placeholders": {
+            "teacherName": {
+                "content": "$1",
+                "example": "Miss Fitz"
+            }
+        },
+        "description": "Title of messages received from a teacher (on pop-ups)"
+    },
+    "messageTabTitle": {
+        "message": "$teacherName$ dit",
+        "placeholders": {
+            "teacherName": {
+                "content": "$1",
+                "example": "Miss Fitz"
+            }
+        },
+        "description": "Title of messages received from a teacher (on tabs)"
+    },
+    "browserIconMultipleUsers": {
+        "message": "Hapara Highlights: Plusieurs utilisateurs sont connect\u00e9s sur Google. Pour r\u00e9soudre ce probl\u00e8me veuillez vous d\u00e9connecter.",
+        "description": "Browser icon tooltip when multiple users are signed in"
+    },
+    "diagnosticsTestLoggedInTimedOut": {
+        "message": "[TIMED OUT] Temps \u00e9puis\u00e9, en attente ",
+        "description": "Message when the diagnostics page gets no response from the extension"
+    },
+    "diagnosticsTestLoggedInErrorRequesting": {
+        "message": "Erreur pendant la demande d'information utilisateurs de l'extension: $error$",
+        "placeholders": {
+            "error": {
+                "content": "$1",
+                "example": "Something went wrong"
+            }
+        },
+        "description": "Message when the diagnostics page gets an error from the extension"
+    },
+    "diagnosticsTestCommunicationTimeout": {
+        "message": "[TIMED OUT] pendant le test de communication",
+        "description": "Message for when testing communication times out"
+    },
+    "diagnosticsButtonTryAgain": {
+        "message": "R\u00e9essayer si'l vous pla\u00eet",
+        "description": "Button to retry diagnostics sending"
+    },
+    "diagnosticsTestGoogleTitle": {
+        "message": "Google est disponible",
+        "description": "Google test title"
+    },
+    "diagnosticsTestValidUserMultipleUsers": {
+        "message": "Nous avons trouv\u00e9 plusieurs utilisateurs valides: $users$",
+        "placeholders": {
+            "users": {
+                "content": "$1",
+                "example": "student1@example.com, student2@example.com"
+            }
+        },
+        "description": "Message indicating multiple valid users were found"
+    },
+    "diagnosticsTestValidUserMultipleUsersSignoutLink": {
+        "message": "Veuillez d\u00e9connecter de votre compte Google",
+        "description": "Content of the log-out link to resolve the multiple user issue"
+    },
+    "diagnosticsTestGoogleDescription": {
+        "message": "V\u00e9rifiez que cet ordinateur peut se connecter \u00e0 Google",
+        "description": "Google test description"
+    },
+    "lockingNotificationStartNowButton": {
+        "message": "Commencer maintenant",
+        "description": "Text on pop-up button that forces locking to start immediately"
+    },
+    "diagnosticsTestExtensionTooManyChecks": {
+        "message": "Trop de v\u00e9rifications de mise \u00e0 jour, veuillez essayer de nouveau plus tard",
+        "description": "Message when chrome throttles our extension update checks"
+    },
+    "diagnosticsTestCommunicationPusherError": {
+        "message": "Erreur de connection avec Pusher",
+        "description": "Message indicating pusher failed to connect"
+    },
+    "diagnosticsTestHaparaDescription": {
+        "message": "V\u00e9rifiez que cet ordinateur peut se connecter \u00e0 Hapara",
+        "description": "Hapara test description"
+    },
+    "messageTabSendButton": {
+        "message": "Envoyer",
+        "description": "Text on the send reply button"
+    },
+    "diagnosticsTestLoggedInDescription": {
+        "message": "V\u00e9rifiez qu'il y a au moins un utilisateur connect\u00e9 \u00e0 Google",
+        "description": "LoggedIn test description"
+    },
+    "blockedTitle": {
+        "message": "Une activit\u00e9 cibl\u00e9e est en cours",
+        "description": "Title of tab locking page"
+    },
+    "diagnosticsSendCodeInformation": {
+        "message": "Veuiller citer le code $code$ lorsque vous signalez ce probl\u00e8me.",
+        "placeholders": {
+            "code": {
+                "content": "$1",
+                "example": "XBNA"
+            }
+        },
+        "description": "Informational message indicating the diagnostics code to the user"
+    },
+    "diagnosticsStatePassed": {
+        "message": "R\u00e9ussi",
+        "description": "Used to indicate this test has passed"
+    },
+    "lockingNotificationTitle": {
+        "message": "Hapara Highlights",
+        "description": "Title of the pop-up notifications for tab locking"
+    },
+    "lockingNotificationTitleFocused": {
+        "message": "Focus session will begin shortly",
+        "description": "Title of the pop-up notifications for tab locking - focused"
+    },
+    "lockingNotificationTitleBlocked": {
+        "message": "Filter session will begin shortly",
+        "description": "Title of the pop-up notifications for tab locking - filter"
+    },
+    "diagnosticsTestValidUserTitle": {
+        "message": "\u00c9tudiant enregistr\u00e9",
+        "description": "ValidUser test title"
+    },
+    "extName": {
+        "message": "L'extension de Hapara Highlights",
+        "description": "Extension name"
+    },
+    "diagnosticsTestLoggedInTitle": {
+        "message": "Connect\u00e9",
+        "description": "LoggedIn test title"
+    },
+    "diagnosticsTestValidUserFoundValidUser": {
+        "message": "Utilisateur valide trouv\u00e9: $user$",
+        "placeholders": {
+            "user": {
+                "content": "$1",
+                "example": "student1@example.com"
+            }
+        },
+        "description": "Message indicating successfully found a single valid user"
+    },
+    "diagnosticsTitle": {
+        "message": "Diagnostique pour l'extension Hapara Highlights",
+        "description": "Title of the diagnostics page"
+    },
+    "diagnosticsSendSuccess": {
+        "message": "Un diagnostique a \u00e9t\u00e9 envoy\u00e9 \u00e0 Hapara",
+        "description": "Message indicating diagnostics were successfully sent to Hapara"
+    },
+    "diagnosticsButtonDownloadResults": {
+        "message": "T\u00e9l\u00e9charger les resultats",
+        "description": "Button to download diagnostics results"
+    },
+    "diagnosticsTestCommunicationLatencyMessage": {
+        "message": "Aller-retour d'informations: $milliseconds$ms",
+        "placeholders": {
+            "milliseconds": {
+                "content": "$1",
+                "example": "413"
+            }
+        },
+        "description": "Communication success message indicating round-trip time in milliseconds"
+    },
+    "diagnosticsTestCommunicationTitle": {
+        "message": "Le canal de communication",
+        "description": "Communication test title"
+    },
+    "diagnosticsTestValidUserDescription": {
+        "message": "V\u00e9rifie que au moins un utilisateur connect\u00e9 est inscrit \u00e0 une \u00e9cole o\u00f9 Hapara Highlights est activ\u00e9e",
+        "description": "ValidUser test description"
+    },
+    "messageTabSentText": {
+        "message": "Message envoy\u00e9",
+        "description": "Text to display after the reply is sent"
+    },
+    "diagnosticsTestLoggedInNoUsers": {
+        "message": "Aucun utilisateur trouv\u00e9",
+        "description": "Message indicating that no users were found"
+    },
+    "messageTabSendError": {
+        "message": "Il y a eu une erreur dans l'envoi de votre message.  Essayer de nouveau.  ",
+        "description": "Messaged displayed when there's an error sending a reply. Indicates the user should try again."
+    },
+    "diagnosticsTestExtensionTitle": {
+        "message": "L'extension est install\u00e9e",
+        "description": "Extension test title"
+    },
+    "diagnosticsTestHaparaTitle": {
+        "message": "Hapara est disponible",
+        "description": "Hapara test title"
+    },
+    "diagnosticsTestLoggedInFoundUsers": {
+        "message": "Utilisateurs trouv\u00e9s: $users$",
+        "placeholders": {
+            "users": {
+                "content": "$1",
+                "example": "student1@example.com, student2@example.com"
+            }
+        },
+        "description": "Message indicating what users were found"
+    },
+    "diagnosticsTestValidUserErrorRequesting": {
+        "message": "Erreur pendant la demande d'informations utilisateurs de l'extension",
+        "description": "Message indicating an error while requesting users from the extension"
+    },
+    "diagnosticsMessageComplete": {
+        "message": "Diagnostique Complet ...",
+        "description": "Message indicating diagnostics run is compmlete"
+    },
+    "diagnosticsTestHTTPRequestError": {
+        "message": "Erreur de validation: $error$",
+        "placeholders": {
+            "error": {
+                "content": "$1",
+                "example": "404 Not Found"
+            }
+        },
+        "description": "Generic diagnostics message when an HTTP request fails"
+    },
+    "extDescription": {
+        "message": "Extension de l'\u00e9tudiant pour Hapara Highlights",
+        "description": "Extension description"
+    },
+    "diagnosticsStatePending": {
+        "message": "En attente",
+        "description": "Used to indicate this test is running"
+    },
+    "diagnosticsButtonSendResults": {
+        "message": "Envoyez les r\u00e9sultats \u00e0 Hapara",
+        "description": "Button to send diagnostic results to Hapara"
+    },
+    "blockedMessage": {
+        "message": "Navigation cibl\u00e9e est actif. Navigation cibl\u00e9e a \u00e9t\u00e9 initi\u00e9 par $teacherName$ en utilisant Hapara Highlights. Donc, ce site ne sera pas accessible pour la prochaine fois $time$.",
+        "placeholders": {
+            "teacherName": {
+                "content": "$1",
+                "example": "Miss Fitz"
+            },
+            "time": {
+                "content": "$2",
+                "example": "2 minutes"
+            }
+        },
+        "description": "Tab locking page message"
+    },
+    "diagnosticsTestExtensionNewerVersion": {
+        "message": "Nouvelle version disponible: $version$",
+        "placeholders": {
+            "version": {
+                "content": "$1",
+                "example": "1.0"
+            }
+        },
+        "description": "Message when there's a newer version available"
+    },
+    "diagnosticsMessageRunning": {
+        "message": "Diagnostique en cours ...",
+        "description": "Message indicating diagnostics is running"
+    }
+}
